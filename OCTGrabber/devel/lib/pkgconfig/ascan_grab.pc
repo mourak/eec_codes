@@ -1,0 +1,8 @@
+prefix=/home/eec/ws/OCTGrabber/devel
+
+Name: ascan_grab
+Description: Description of ascan_grab
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eec/ws/OCTGrabber/devel/lib 
+Requires: roscpp rospy std_msgs x_eureyecase_messages_generation geometry_msgs pcl_conversions pcl_ros

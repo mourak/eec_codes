@@ -1,0 +1,2 @@
+ascan_processing/ascan_distance:ascan_processing/ascan_grab:ascan_processing/ascan_grab_robot:ascan_processing/ascan_grab_xyz
+-DCATKIN_DEVEL_PREFIX=/home/eec/ws/OCTGrabber/devel -DCMAKE_INSTALL_PREFIX=/home/eec/ws/OCTGrabber/install -G Unix Makefiles
