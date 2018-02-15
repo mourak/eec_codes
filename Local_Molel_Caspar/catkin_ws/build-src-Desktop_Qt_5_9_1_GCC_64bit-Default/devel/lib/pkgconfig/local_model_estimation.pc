@@ -1,0 +1,8 @@
+prefix=/home/eec/Documents/Mouloud/Code_V2/catkin_ws/build-src-Desktop_Qt_5_9_1_GCC_64bit-Default/devel
+
+Name: local_model_estimation
+Description: Description of local_model_estimation
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/eec/Documents/Mouloud/Code_V2/catkin_ws/build-src-Desktop_Qt_5_9_1_GCC_64bit-Default/devel/lib 
+Requires: 

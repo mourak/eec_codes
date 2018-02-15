@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: local_model_estimation
+Description: Description of local_model_estimation
+Version: 1.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

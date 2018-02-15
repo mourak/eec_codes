@@ -1,0 +1,2 @@
+local_model_estimation
+-DCATKIN_DEVEL_PREFIX=/home/eec/Documents/Mouloud/Code_V2/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eec/Documents/Mouloud/Code_V2/catkin_ws/install -G Unix Makefiles

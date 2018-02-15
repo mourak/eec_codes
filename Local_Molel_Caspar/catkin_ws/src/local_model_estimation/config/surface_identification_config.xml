@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<surface_identification>
+
+    <!-- variances at filter initialization time -->
+    <init_prop type="var_dx">1</init_prop>
+    <init_prop type="var_dy">1</init_prop>
+    <init_prop type="var_dz">1</init_prop>
+    <init_prop type="var_a">12</init_prop>
+    <init_prop type="var_da">15</init_prop>
+    <init_prop type="var_b">10</init_prop>
+    <init_prop type="var_db">10</init_prop>
+    <init_prop type="var_th">0.1</init_prop>
+    <init_prop type="var_ep">0.1</init_prop>
+    <init_prop type="var_d">0.0001</init_prop>
+    <init_prop type="th">90</init_prop> <!-- [degrees] -->
+    <init_prop type="ep">0</init_prop> <!-- [degrees] -->
+
+    <!-- variances in prediction model -->
+    <pred_prop type="var_dx">0.00001</pred_prop>
+    <pred_prop type="var_dy">0.00001</pred_prop>
+    <pred_prop type="var_dz">0.00001</pred_prop>
+    <pred_prop type="var_da">0.0001</pred_prop>
+    <pred_prop type="var_th">1</pred_prop> <!-- take a value between 0.1 and 1 -->
+
+    <!-- if this is high (e.g. 0.1), th stabilizes slowly, but then stays more stable around its position. -->
+    <!-- if this is low (e.g. 0.0000001), th stabilizes quickly, but then stays less stable around its position -->
+    <!--<pred_prop type="var_d">0.00001</pred_prop> -->
+    <pred_prop type="var_d">0.0005</pred_prop> 
+
+    <!-- variances in measurement model -->
+    <meas_prop type="var_dx">0.0000004</meas_prop>
+    <meas_prop type="var_dy">0.0000004</meas_prop>
+    <meas_prop type="var_dz">0.0000004</meas_prop>
+    <meas_prop type="var_a">0.004</meas_prop>
+    <meas_prop type="var_da">0.4</meas_prop>
+    <meas_prop type="var_d">0.00001</meas_prop>
+
+    <!-- modifiers for some parameters, to avoid numerical problems -->
+    <modifier type="max_azimuth_var_scaling">400</modifier>
+    <modifier type="min_aux">0.05</modifier>
+    <modifier type="min_den">0.05</modifier>
+
+</surface_identification>
